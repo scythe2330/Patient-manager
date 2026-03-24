@@ -1,0 +1,14 @@
+### POST request to create patient
+POST http://localhost:4004/api/patients
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Adarsh Rajput API Gateway test",
+  "email": "adarsh_gateway_test2@gmail.com",
+  "address": "jankipur",
+  "dateOfBirth": "2004-02-26",
+  "registeredDate": "2026-02-10"
+}
+
+###
